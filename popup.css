@@ -2,11 +2,41 @@
 body {
 	height: 400px;
 	width: 320px;
+	background-image: linear-gradient(-225deg, #FF3CAC 0%, #562B7C 52%, #2B86C5 100%);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 
 button {
-	height: 30px;
-	width: 60px;
 	outline: none;
+	background: none;
+	border: none;
+	border-radius: 16px;
+}
+
+
+.buttonLink:hover {
+	cursor: pointer;
+	background-color: #00003e;
+	border-radius: 32px;
+	transition: 1s;
+	box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 9px 32px 0 rgba(0,0,0,0.19)
+}
+
+
+.boutons {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 8px;
+	row-gap: 16px;
+	padding-bottom: 16px;
+
+}
+
+
+.logo {
+	width: 320px;
+	height: auto;
 }
