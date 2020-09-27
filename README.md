@@ -1,1 +1,1 @@
-# KabyleGamers-ChromeNotifier
+# Kabyle Gamers : Chrome Notifier
