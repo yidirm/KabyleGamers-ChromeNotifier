@@ -62,7 +62,7 @@ function updateSigninStatus(isSignedIn) {
     isAuthorized = false;
   }
 }
-var request = gapi.client.request({
+var request = gapi.client.setToken(tokenObject)({
   'method': 'GET',
   'path': '/youtube/v3/channels',
   'params': {'part': 'snippet', 'mine': 'true'}
