@@ -4,7 +4,7 @@
   "description": "Ne ratez plus aucun événement de Kabyle Gamers !",
     "manifest_version": 2,
     "icons": {
-      "128": "icon-def.png"
+      "128": "icon/icon-def.png"
     },
     "browser_action":{
       "default_popup":"popup.html"
@@ -14,7 +14,14 @@
     "scripts": [
       "OneSignal.js",
       "background.js"
-    ]
+    ]},
+    
+    "page_action": {
+      "default_icon": {                   
+        "16": "icon/iconytblive.png",    
+        "24": "icon/icontwitchlive.png",           
+        "32": "icon/iconnotif.png"            
+      } 
   },
   "permissions": [
     "gcm",
