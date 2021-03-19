@@ -6,7 +6,11 @@ Cette extension permet de s'inscrire aux notifications de Kabyle Gamers (One Sig
 
 ## To-do
 
-- [x] Background de l'extension, avec logo et « Premium »
+- [x] Background de l'extension, avec logo et « Premium » (Bardit)
 - [x] CSS / Boutons ([@Nissoux](https://github.com/@nissoux))
-- [x] Recevoir les données de OneSignal ([@Yidirm](https://github.com/yidirm))
-- [x] Vérifier la présence de directs sur Twitch ou Youtube ([@DarthJahus](https://github.com/darthjahus), [@Yidirm](https://github.com/yidirm))
+- [x] Vérifier la présence de directs sur Twitch ou Youtube ([@DarthJahus](https://github.com/darthjahus)
+- [ ] Utiliser l'API web privée pour récupérer les infos sur les directs ([@Nissoux](https://github.com/@nissoux))
+- [ ] Afficher les directs dans le popup ([@Nissoux](https://github.com/@nissoux))
+- [ ] Changer l'icône lors de directs
+- [ ] ~~Recevoir les données de OneSignal~~ ([@Yidirm](https://github.com/yidirm))
+- [ ] Icônes de différentes tailles selon les standards de Google Web Store

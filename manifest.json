@@ -1,10 +1,13 @@
 {
   "name": "Kabyle Gamers Premium",
-  "version": "0.1",
+  "version": "0.5.0",
   "description": "Ne ratez plus aucun événement de Kabyle Gamers !",
     "manifest_version": 2,
     "icons": {
-      "128": "icon/icon-def.png"
+      "16": "static/icon-def-16.png",
+      "32": "static/icon-def-32.png",
+      "48": "static/icon-def-48.png",
+      "128": "static/icon-def-128.png"
     },
     "browser_action":{
       "default_popup":"popup.html"
@@ -14,14 +17,7 @@
     "scripts": [
       "OneSignal.js",
       "background.js"
-    ]},
-    
-    "page_action": {
-      "default_icon": {                   
-        "16": "icon/iconytblive.png",    
-        "24": "icon/icontwitchlive.png",           
-        "32": "icon/iconnotif.png"            
-      } 
+    ]
   },
   "permissions": [
     "gcm",
